@@ -1,0 +1,7 @@
+D:\vs2010\csh\BowlingGame\BowlingGameTest\obj\Debug\ResolveAssemblyReference.cache
+D:\vs2010\csh\BowlingGame\BowlingGameTest\bin\Debug\BowlingGameTest.dll
+D:\vs2010\csh\BowlingGame\BowlingGameTest\bin\Debug\BowlingGameTest.pdb
+D:\vs2010\csh\BowlingGame\BowlingGameTest\bin\Debug\BowlingGame.exe
+D:\vs2010\csh\BowlingGame\BowlingGameTest\bin\Debug\BowlingGame.pdb
+D:\vs2010\csh\BowlingGame\BowlingGameTest\obj\Debug\BowlingGameTest.dll
+D:\vs2010\csh\BowlingGame\BowlingGameTest\obj\Debug\BowlingGameTest.pdb

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingGame", "BowlingGame\BowlingGame.csproj", "{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingGameTest", "BowlingGameTest\BowlingGameTest.csproj", "{E5D03941-17A0-479C-85A7-51C6A2F09F7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D417EB2-3382-48FB-8FAC-535C1B0C543E}"
+	ProjectSection(SolutionItems) = preProject
+		BowlingGame.vsmdi = BowlingGame.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BowlingGame.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Debug|x86.ActiveCfg = Debug|x86
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Debug|x86.Build.0 = Debug|x86
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Release|Any CPU.ActiveCfg = Release|x86
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Release|Mixed Platforms.Build.0 = Release|x86
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Release|x86.ActiveCfg = Release|x86
+		{0EF45097-E0BB-4CDA-B256-CE2AE1769E58}.Release|x86.Build.0 = Release|x86
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E5D03941-17A0-479C-85A7-51C6A2F09F7F}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

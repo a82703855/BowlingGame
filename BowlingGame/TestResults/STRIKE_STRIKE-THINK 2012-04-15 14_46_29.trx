@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d06081b6-86df-46fe-acf8-4d767e4a4c7c" name="STRIKE@STRIKE-THINK 2012-04-15 14:46:29" runUser="STRIKE-THINK\STRIKE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="ac7dbcf4-0217-4bb7-885d-181e1d39493f">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="STRIKE_STRIKE-THINK 2012-04-15 14_46_29">
+      <DeploymentItem filename="D:\vs2010\csh\BowlingGame\BowlingGame\bin\Debug\BowlingGame.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-15T14:46:29.8677025+08:00" queuing="2012-04-15T14:46:29.8977042+08:00" start="2012-04-15T14:46:29.9067047+08:00" finish="2012-04-15T14:46:30.2927268+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="4" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="testOneStrike" storage="d:\vs2010\csh\bowlinggame\bowlinggametest\bin\debug\bowlinggametest.dll" id="0dc69d51-f15e-6390-18ee-0951f148ed4b">
+      <Execution id="fc1c567d-d2c9-4d1a-bebb-e1347ebdf796" />
+      <TestMethod codeBase="D:/vs2010/csh/BowlingGame/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testOneStrike" />
+    </UnitTest>
+    <UnitTest name="testOneSpare" storage="d:\vs2010\csh\bowlinggame\bowlinggametest\bin\debug\bowlinggametest.dll" id="17d5f833-b821-0f07-9723-04f2b742087f">
+      <Execution id="43c0180d-aa37-4a5d-8aab-67d83ef21e6a" />
+      <TestMethod codeBase="D:/vs2010/csh/BowlingGame/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testOneSpare" />
+    </UnitTest>
+    <UnitTest name="testHeartBreak" storage="d:\vs2010\csh\bowlinggame\bowlinggametest\bin\debug\bowlinggametest.dll" id="bb77fe17-5c79-3ba9-4980-cf499ad710fa">
+      <Execution id="cc6a6e67-76f1-4338-b0df-21b9494cc038" />
+      <TestMethod codeBase="D:/vs2010/csh/BowlingGame/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testHeartBreak" />
+    </UnitTest>
+    <UnitTest name="testRolls" storage="d:\vs2010\csh\bowlinggame\bowlinggametest\bin\debug\bowlinggametest.dll" id="6d239213-6502-8524-0690-637aa88cd060">
+      <Execution id="f1a7cbec-8df1-4237-8919-8aa8d7645f46" />
+      <TestMethod codeBase="D:/vs2010/csh/BowlingGame/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testRolls" />
+    </UnitTest>
+    <UnitTest name="testGutterGame" storage="d:\vs2010\csh\bowlinggame\bowlinggametest\bin\debug\bowlinggametest.dll" id="98cc0c0e-7a1e-2658-db4a-085b4583f36f">
+      <Execution id="7351f73e-5d75-4ca3-9a14-2442068b58d0" />
+      <TestMethod codeBase="D:/vs2010/csh/BowlingGame/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testGutterGame" />
+    </UnitTest>
+    <UnitTest name="testAllOnes" storage="d:\vs2010\csh\bowlinggame\bowlinggametest\bin\debug\bowlinggametest.dll" id="ba5ef2f0-1dab-7adb-aa9b-278a05452cf1">
+      <Execution id="facb57cc-1ca0-44e3-becc-fc7caac62783" />
+      <TestMethod codeBase="D:/vs2010/csh/BowlingGame/BowlingGameTest/bin/Debug/BowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGameTest, BowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testAllOnes" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="98cc0c0e-7a1e-2658-db4a-085b4583f36f" executionId="7351f73e-5d75-4ca3-9a14-2442068b58d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba5ef2f0-1dab-7adb-aa9b-278a05452cf1" executionId="facb57cc-1ca0-44e3-becc-fc7caac62783" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17d5f833-b821-0f07-9723-04f2b742087f" executionId="43c0180d-aa37-4a5d-8aab-67d83ef21e6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0dc69d51-f15e-6390-18ee-0951f148ed4b" executionId="fc1c567d-d2c9-4d1a-bebb-e1347ebdf796" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb77fe17-5c79-3ba9-4980-cf499ad710fa" executionId="cc6a6e67-76f1-4338-b0df-21b9494cc038" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d239213-6502-8524-0690-637aa88cd060" executionId="f1a7cbec-8df1-4237-8919-8aa8d7645f46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7351f73e-5d75-4ca3-9a14-2442068b58d0" testId="98cc0c0e-7a1e-2658-db4a-085b4583f36f" testName="testGutterGame" computerName="STRIKE-THINK" duration="00:00:00.0213359" startTime="2012-04-15T14:46:29.9087048+08:00" endTime="2012-04-15T14:46:30.1817204+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7351f73e-5d75-4ca3-9a14-2442068b58d0">
+    </UnitTestResult>
+    <UnitTestResult executionId="facb57cc-1ca0-44e3-becc-fc7caac62783" testId="ba5ef2f0-1dab-7adb-aa9b-278a05452cf1" testName="testAllOnes" computerName="STRIKE-THINK" duration="00:00:00.0002986" startTime="2012-04-15T14:46:30.1837205+08:00" endTime="2012-04-15T14:46:30.1957212+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="facb57cc-1ca0-44e3-becc-fc7caac62783">
+    </UnitTestResult>
+    <UnitTestResult executionId="43c0180d-aa37-4a5d-8aab-67d83ef21e6a" testId="17d5f833-b821-0f07-9723-04f2b742087f" testName="testOneSpare" computerName="STRIKE-THINK" duration="00:00:00.0008396" startTime="2012-04-15T14:46:30.2007215+08:00" endTime="2012-04-15T14:46:30.2067218+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43c0180d-aa37-4a5d-8aab-67d83ef21e6a">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc1c567d-d2c9-4d1a-bebb-e1347ebdf796" testId="0dc69d51-f15e-6390-18ee-0951f148ed4b" testName="testOneStrike" computerName="STRIKE-THINK" duration="00:00:00.0005170" startTime="2012-04-15T14:46:30.2087220+08:00" endTime="2012-04-15T14:46:30.2187225+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc1c567d-d2c9-4d1a-bebb-e1347ebdf796">
+    </UnitTestResult>
+    <UnitTestResult executionId="cc6a6e67-76f1-4338-b0df-21b9494cc038" testId="bb77fe17-5c79-3ba9-4980-cf499ad710fa" testName="testHeartBreak" computerName="STRIKE-THINK" duration="00:00:00.0304070" startTime="2012-04-15T14:46:30.2237228+08:00" endTime="2012-04-15T14:46:30.2597249+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc6a6e67-76f1-4338-b0df-21b9494cc038">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;299&gt;，实际为: &lt;29&gt;。</Message>
+          <StackTrace>   在 BowlingGameTest.testHeartBreak() 位置 D:\vs2010\csh\BowlingGame\BowlingGameTest\GameTest.cs:行号 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f1a7cbec-8df1-4237-8919-8aa8d7645f46" testId="6d239213-6502-8524-0690-637aa88cd060" testName="testRolls" computerName="STRIKE-THINK" duration="00:00:00.0015722" startTime="2012-04-15T14:46:30.2617250+08:00" endTime="2012-04-15T14:46:30.2727256+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1a7cbec-8df1-4237-8919-8aa8d7645f46">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;3&gt;，实际为: &lt;2&gt;。</Message>
+          <StackTrace>   在 BowlingGameTest.testRolls() 位置 D:\vs2010\csh\BowlingGame\BowlingGameTest\GameTest.cs:行号 55
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

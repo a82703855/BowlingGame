@@ -1,0 +1,5 @@
+D:\vs2010\csh\BowlingGame\BowlingGame\bin\Debug\BowlingGame.exe
+D:\vs2010\csh\BowlingGame\BowlingGame\bin\Debug\BowlingGame.pdb
+D:\vs2010\csh\BowlingGame\BowlingGame\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\vs2010\csh\BowlingGame\BowlingGame\obj\x86\Debug\BowlingGame.exe
+D:\vs2010\csh\BowlingGame\BowlingGame\obj\x86\Debug\BowlingGame.pdb
